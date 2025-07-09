@@ -120,6 +120,11 @@ ngrok config add-authtoken YOUR_AUTHTOKEN
 ```bash
 python bot.py
 ```
+or
+```bash
+bot.bat
+```
+from Windows
 
 - The Discord bot will connect.
 - The local Flask server will start at `http://localhost:8080/`.
