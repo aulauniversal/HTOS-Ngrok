@@ -1,6 +1,6 @@
 
 # HTOS Ngrok
-A discord bot with tons of functionalities that can handle PS4 saves using a jailbroken PS4.
+A Discord bot with tons of features that can handle PS4 saves using a jailbroken PS4. An HTTP server has been added to send download links via Ngrok when Google Drive reaches its quota.
 
 ## Purposes
 - Resign encrypted saves (both with or without replacing the decrypted contents, also known as encrypting)
