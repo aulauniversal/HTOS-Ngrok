@@ -49,8 +49,8 @@ A discord bot with tons of functionalities that can handle PS4 saves using a jai
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/hzhreal/HTOS
-cd HTOS
+git clone https://github.com/aulauniversal/HTOS-Ngrok
+cd HTOS-Ngrok
 ```
 
 2. Install dependencies:
