@@ -65,7 +65,7 @@ How to obtain NPPSO:
 - Make sure the pkg is running when the bot is
 - Enjoy!
 
-## 🔧 Changes from the original
+##  Changes from the original
 
 1. **Support for local uploads with Flask server**:
 - If Google Drive fails due to a quota exceeded (`storageQuotaExceeded`), the file is automatically copied to a local folder (`downloads/`) and served by a Flask server.
@@ -82,7 +82,7 @@ How to obtain NPPSO:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 1. Clone the repository:
 
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🌐 ngrok Setup
+##  ngrok Setup
 
 1. Sign up (free) at https://ngrok.com/
 2. Copy your authtoken from https://dashboard.ngrok.com/get-started/your-authtoken
@@ -115,7 +115,7 @@ ngrok config add-authtoken YOUR_AUTHTOKEN
 
 ---
 
-## 🚀 Run
+##  Run
 
 ```bash
 python bot.py
@@ -138,13 +138,13 @@ https://abc123.ngrok.io/files/archivo.zip
 
 ---
 
-## 🧼 Automatic Cleanup
+##  Automatic Cleanup
 
 Temporary files in `downloads/` are automatically deleted every hour if they are older than 60 minutes.
 
 ---
 
-## ✅ Additional Requirements
+##  Additional Requirements
 
 Make sure these modules are in your `requirements.txt`:
 
