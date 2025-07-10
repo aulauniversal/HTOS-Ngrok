@@ -11,7 +11,7 @@ from dataclasses import dataclass
 from typing import Literal, Callable
 from enum import Enum
 from discord.ui.item import Item
-from psnawp_api.core.psnawp_exceptions import PSNAWPNotFound, PSNAWPAuthenticationError
+from psnawp_api.core.psnawp_exceptions import PSNAWPNotFoundError, PSNAWPAuthenticationError
 from google_drive import GDapi, GDapiError
 from network import FTPps
 from utils.constants import (
