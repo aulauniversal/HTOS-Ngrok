@@ -484,13 +484,13 @@ class GDapi:
                 logger.warning("[!] Google Drive quota exceeded. Falling back to local hosting.")
                 await cls.clear_drive()
 
-                # Copiar archivo a carpeta local
-                downloads_dir = os.path.join(os.path.dirname(__file__), "..", "downloads")
+                
+                downloads_dir = os.path.join(os.path.dirname(__file__), "..", "downloads") 
                 os.makedirs(downloads_dir, exist_ok=True)
                 local_path = os.path.join(downloads_dir, fileName)
                 shutil.copy(pathToFile, local_path)
 
-                # Obtener URL de ngrok
+                
                 ngrok_url = cls.get_ngrok_url()
                 if ngrok_url:
                     file_url = f"{ngrok_url}/files/{fileName}"
