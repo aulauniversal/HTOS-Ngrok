@@ -9,7 +9,7 @@ import aiofiles.os
 import aiohttp
 from dataclasses import dataclass
 from ftplib import FTP, error_perm
-from psnawp_api.core.psnawp_exceptions import PSNAWPNotFound, PSNAWPAuthenticationError
+from psnawp_api.core.psnawp_exceptions import PSNAWPNotFoundError, PSNAWPAuthenticationError
 from network import FTPps, FTPError
 from utils.constants import (
     UPLOAD_DECRYPTED, UPLOAD_ENCRYPTED, DOWNLOAD_DECRYPTED, PNG_PATH, KEYSTONE_PATH, NPSSO_global,
